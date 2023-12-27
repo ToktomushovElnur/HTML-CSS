@@ -1,0 +1,25 @@
+.parent {
+    background-color: #172888;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*height: 300px;*/
+    align-content: space-between;
+    gap: 20px ;
+    /*row-gap: ;*/
+    /*column-gap: ;*/
+}
+.child {
+    /*width: 500px;*/
+    flex: 1 1 500px;
+    /*flex-grow: ;*/
+    /*flex-shrink: ;*/
+    /*flex-basis: ;*/
+    background-color: #244624;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 12px;
+}
